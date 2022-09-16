@@ -642,7 +642,6 @@ $WPFtweaksbutton.Add_Click({
         }
         If ( $WPFEssTweaksOO.IsChecked -eq $true ) {
             Write-Host "Running O&O Shutup with Recommended Settings"
-            curl.exe -ss "https://raw.githubusercontent.com/ChrisTitusTech/win10script/master/ooshutup10.cfg" -o ooshutup10.cfg
             curl.exe -ss "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe" -o OOSU10.exe
             ./OOSU10.exe ooshutup10.cfg /quiet
             $WPFEssTweaksOO.IsChecked = $false
@@ -671,12 +670,12 @@ $WPFtweaksbutton.Add_Click({
                 "ALG"                                          # Application Layer Gateway Service(Provides support for 3rd party protocol plug-ins for Internet Connection Sharing)
                 "AJRouter"                                     # Needed for AllJoyn Router Service
                 "BcastDVRUserService_48486de"                  # GameDVR and Broadcast is used for Game Recordings and Live Broadcasts
-                #"BDESVC"                                      # Bitlocker Drive Encryption Service
+                "BDESVC"                                       # Bitlocker Drive Encryption Service
                 #"BFE"                                         # Base Filtering Engine (Manages Firewall and Internet Protocol security)
                 #"BluetoothUserService_48486de"                # Bluetooth user service supports proper functionality of Bluetooth features relevant to each user session.
                 #"BrokerInfrastructure"                        # Windows Infrastructure Service (Controls which background tasks can run on the system)
                 "Browser"                                      # Let users browse and locate shared resources in neighboring computers
-                "BthAvctpSvc"                                  # AVCTP service (needed for Bluetooth Audio Devices or Wireless Headphones)
+                #"BthAvctpSvc"                                 # AVCTP service (needed for Bluetooth Audio Devices or Wireless Headphones)
                 "CaptureService_48486de"                       # Optional screen capture functionality for applications that call the Windows.Graphics.Capture API.
                 "cbdhsvc_48486de"                              # Clipboard Service
                 "diagnosticshub.standardcollector.service"     # Microsoft (R) Diagnostics Hub Standard Collector Service
