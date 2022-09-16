@@ -1,4 +1,4 @@
-# Chris Titus Tech's Windows Utility
+# Windows Utility (adapted from [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil))
 
 This Utility is a compilation of windows tasks I perform on each Windows system I use. It is meant to streamline *installs*, debloat with *tweaks*, troubleshoot with *config*, and fix Windows *updates*. I am extremely picky on any contributions to keep this project clean and efficient. 
 
@@ -7,7 +7,7 @@ This Utility is a compilation of windows tasks I perform on each Windows system 
 Launch Command:
 
 ```
-iwr -useb https://christitus.com/win | iex
+iwr -useb https://raw.githubusercontent.com/wizlee/winutil/main/winutil.ps1 | iex
 ```
 
 EXE Wrapper for $5 @ https://www.cttstore.com/windows-toolbox
