@@ -1,5 +1,21 @@
 # Windows Utility (adapted from [ChrisTitusTech](https://github.com/ChrisTitusTech/winutil))
 
+Adpated this utility mainly to quickly setup new personal windows machines. Tweaks that I am personally running
+- Run OOShutup with personalized configuration
+- Disable Telemetry
+- Disable Wifi Sense
+- Disable Activity History
+- Disable Location Tracking
+- Disable HomeGroup
+- Disable Storage Sense
+- Disable Hibernation
+- Disable GameDVR
+- Enable NumLock on Startup
+- Show File Extensions
+- Remove ALL MS store apps
+
+# Original Readme Intro
+
 This Utility is a compilation of windows tasks I perform on each Windows system I use. It is meant to streamline *installs*, debloat with *tweaks*, troubleshoot with *config*, and fix Windows *updates*. I am extremely picky on any contributions to keep this project clean and efficient. 
 
 ![screen-install](screen-install.png)
