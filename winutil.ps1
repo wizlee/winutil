@@ -1002,7 +1002,7 @@ $WPFtweaksbutton.Add_Click({
                 "Microsoft.BingTravel"
                 "Microsoft.MinecraftUWP"
                 "Microsoft.GamingServices"
-                # "Microsoft.WindowsReadingList"
+                "Microsoft.WindowsReadingList"
                 "Microsoft.GetHelp"
                 "Microsoft.Getstarted"
                 "Microsoft.Messaging"
@@ -1036,7 +1036,7 @@ $WPFtweaksbutton.Add_Click({
                 "Microsoft.MixedReality.Portal"
                 "Microsoft.ZuneMusic"
                 "Microsoft.ZuneVideo"
-                #"Microsoft.YourPhone"
+                "Microsoft.YourPhone"
                 "Microsoft.Getstarted"
                 "Microsoft.MicrosoftOfficeHub"
 
@@ -1071,7 +1071,7 @@ $WPFtweaksbutton.Add_Click({
                 #Optional: Typically not removed but you can if you need to
                 "*Microsoft.Advertising.Xaml*"
                 #"*Microsoft.MSPaint*"
-                #"*Microsoft.MicrosoftStickyNotes*"
+                "*Microsoft.MicrosoftStickyNotes*"
                 #"*Microsoft.Windows.Photos*"
                 #"*Microsoft.WindowsCalculator*"
                 #"*Microsoft.WindowsStore*"
